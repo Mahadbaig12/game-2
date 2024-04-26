@@ -1,0 +1,27 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: rgb(203, 144, 218);
+}
+#borad{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(86, 132, 202);
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    border: 3px solid lightcoral;
+    border-radius: 10px;
+}
+#borad div {
+    width: 200px;
+    height: 150px;
+    background-image: url(istockphoto-1469842036-1024x1024.jpg);
+    background-size: cover;
+    border-radius: 1px;
+}
+#borad div img {
+    width: 100px;
+    height: 100px;
+}
